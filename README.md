@@ -1,62 +1,6 @@
-# Black-Star
-<h3>Git Commands</h3>
+# Black-Star WebGL Edition!
 
-<b>Cloning via Personal Access Token (recommended)</b>
-```
-git clone https://<github username>:<TOKEN>@github.com/<github username>/BlackStar.git
-```
-  
-<b>Add to staging</b>
-```
-git add 
-```
+This is a project from DIS Copenhagen created by Dejie Zhen, Caroline Taft, Juliet DeNapoli, and TJ Perez. I've ported it to work in modern day (2025) Unity and run in WebGL! Feel free to download the repo and make changes if you would like.
 
-<b>Commit to remote</b>
-```
-git commit -m "<commit message>"
-```
-<b>Push to remote repo(github)</b>
-```
-git push
-```
-
-<h3>File Hierarchy</h3>
-  
-```
-project
-│   README.md    
-│
-└───Assets
-│   │
-│   └───Prefabs
-│       │   
-|       └───-Characters
-|       |      | ..
-|       |      | ..
-|       |    └─Platform
-|       |      | ..
-|       |      | ..
-|       |    └─Obstacle
-|       |      | ..
-|       |      | ..
-│       Materials
-|       |    └─Characters
-|       |      | ..
-|       |      | ..
-|       |    └─Platform
-|       |      | ..
-|       |      | ..
-|       |    └─Obstacle
-|       |      | ..
-|       |      | ..
-│       Scripts
-|       |    └─Character
-|       |      | ..
-|       |      | ..
-|       |    └─Obstacles
-|       |      | ..
-|       |      | ..
-
-│ 
-........
-```
+NOTE:
+I had to disable the scoreboard feature for WebGL compatibility. Maybe it could be added back to the WebGL version some day!
